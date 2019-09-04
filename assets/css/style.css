@@ -1,0 +1,380 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Schoolbell', cursive;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Caveat', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Barriecito', cursive;
+}
+
+.navbar {
+  background-color: #20ced5 !important;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/LP1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-custom {
+  background-color: rgba(21, 158, 168, 0.2);
+  border-radius: 40px;
+}
+
+.btn-custom {
+  background-color: transparent;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #20ced5;
+}
+
+.btn-custom-solid {
+  background-color: #20ced5;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  border: 2px solid #20ced5;
+  color: #fff;
+}
+
+.btn-custom-solid:hover {
+  background-color: transparent;
+  border: 2px solid #20ced5;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bottom {
+  background-color: #20ced5;
+}
+.bottom .copyright {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+.copyright a {
+  color: #f2ff49;
+  margin-left: 3px;
+  padding-right: 3px;
+}
+.bottom p {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.copyright p span {
+  color: #e5e5e5;
+}
+.bottom .copyright p,
+.bottom .copyright a:hover {
+  color: #e5e5e5;
+}
+
+#section-2 {
+  background-color: skyblue;
+}
+
+#section-1 {
+  background-color: pink;
+}
+
+.section-padding {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+.leaflet-popup-content img {
+  max-width: 100%;
+}
+
+.section-solid {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.T1 {
+  position: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* gwa k lng id na unique kada section */
+#section-cantilan-history {
+  background-image: url('../images/background/bg11.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-sanpedro {
+  background-color: #dccda2;
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-libtong {
+  background-image: url('../images/bg2.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-casarica {
+  background-color: #2da2b3;
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-ayoki {
+  background-image: url('../images/background/bg11.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-activities {
+  background-color: #22d3d9;
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-gotravel {
+  background-image: url('../images/bg4.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-blog {
+  background-color: #eec17d;
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-contact {
+  background-image: url('../images/bg5.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hover-mask a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.hover-mask img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.hover-mask:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hover-mask a h2 {
+  display: block;
+  position: absolute;
+  top: 50%;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*padding: 45% 20px;*/
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  filter: alpha(opacity=0);
+  opacity: 0;
+  color: #fff;
+}
+.hover-mask a h2 span {
+  border: 2px solid #fff;
+  padding: 0px 20px;
+}
+.hover-mask:hover a h2 {
+  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.input-group-text {
+  background-color: #20ced5;
+}
+
+/*footer*/
+
+.swimming {
+  height: 50px;
+}
+
+.hover-mask-a a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.hover-mask-a img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.hover-mask-a:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hover-mask-a a h6 {
+  display: block;
+  position: absolute;
+  top: 50%;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*padding: 45% 20px;*/
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  filter: alpha(opacity=0);
+  opacity: 0;
+  color: #fff;
+}
+.hover-mask-a a h6 span {
+  border: 2px solid #fff;
+  padding: 0px 20px;
+}
+.hover-mask-a:hover a h6 {
+  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.img-activity {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
